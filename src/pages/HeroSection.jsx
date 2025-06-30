@@ -157,7 +157,7 @@ const HeroSection = () => {
           </motion.h1>
           
           <motion.h2 
-            className="text-2xl font-semibold text-gray-600 md:text-3xl dark:text-gray-400"
+            className="text-2xl font-semibold text-gray-400 md:text-3xl dark:text-gray-400"
             variants={item}
           >
             <span className="relative inline-block overflow-hidden">
