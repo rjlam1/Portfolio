@@ -143,7 +143,7 @@ const Navbar = () => {
             onClick={toggleTheme}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            className="p-2 text-gray-800 transition-colors duration-300 rounded-full dark:text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900"
+            className="p-2 text-gray-600 transition-colors duration-300 rounded-full dark:text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800"
             aria-label={isDark ? "Switch to light mode" : "Switch to dark mode"}
           >
             {isDark ? <FaSun size={20} /> : <FaMoon size={20} />}
@@ -152,7 +152,7 @@ const Navbar = () => {
             onClick={() => setIsOpen(!isOpen)}
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
-            className="p-2 text-gray-800 transition-colors rounded-md dark:text-gray-800 hover:bg-gray-100 dark:hover:bg-gray-900"
+            className="p-2 text-gray-700 transition-colors rounded-md dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800"
             aria-label="Toggle menu"
           >
             {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
