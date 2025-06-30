@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@plugin "daisyui";
+@import "tailwindcss";
+.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.active-nav-item {
+  @apply text-green-600 dark:text-green-400;
+}
+
+.active-nav-item span {
+  @apply w-full;
+}
+
+.active-mobile-nav-item {
+  @apply font-semibold text-green-600 bg-green-100/50 dark:bg-green-900/20;
+}
