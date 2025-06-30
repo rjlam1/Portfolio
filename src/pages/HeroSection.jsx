@@ -138,7 +138,7 @@ const HeroSection = () => {
           </motion.div>
 
           <motion.h1 
-            className="text-4xl font-bold leading-tight text-gray-800 md:text-5xl lg:text-6xl dark:text-gray-400"
+            className="text-4xl font-bold leading-tight text-gray-400 md:text-5xl lg:text-6xl dark:text-gray-400"
             variants={item}
           >
             Hi, I'm <motion.span 
