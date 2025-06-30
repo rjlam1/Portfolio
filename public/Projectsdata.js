@@ -4,7 +4,7 @@ const projects = [
   {
     title: "PlantCare",
     shortDescription: "A plant care tracking application with CRUD features, theming, and personalized dashboards.",
-    image: "public/Screenshot 2025-06-29 133854.png",
+    image: "https://i.ibb.co/tgzdbRS/Screenshot-2025-06-29-133854.png",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Stripe API"],
     liveLink: "https://mango-f8850.web.app/",
     githubLinks: {
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Task Management App",
     shortDescription: "A task management and collaboration tool with real-time sync and team features.",
-    image: "public/Screenshot 2025-06-29 135019.png",
+    image: "https://i.ibb.co/5XwnfS8Z/Screenshot-2025-06-29-134804.png",
     techStack: ["React", "Firebase", "Tailwind CSS", "Redux"],
     liveLink: "https://artifactare.web.app/",
     githubLinks: {
@@ -44,7 +44,7 @@ const projects = [
   {
     title: "JobFinder",
     shortDescription: "A job listing platform to explore companies, search jobs, and apply directly.",
-    image: "public/Screenshot 2025-06-29 134400.png",
+    image: "https://i.ibb.co/fLBsFVn/Screenshot-2025-06-29-134400.png",
     techStack: ["Next.js", "TypeScript", "Spoonacular API", "Tailwind CSS"],
     liveLink: "https://splendid-pony-adb6c7.netlify.app/",
     githubLinks: {
